@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efb0dbd68a6f4334a9b84cf948b0c4d5, type: 3}
+  m_Name: ButtonsManager
+  m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 11400000, guid: b2aa7b50adcd52e488ffc9a6dae310fe, type: 2}
+  - {fileID: 11400000, guid: 0221f67e09eea94448c2cbd340549613, type: 2}
+  - {fileID: 11400000, guid: 4291bba4f97a26f4d87a23e1f02a6cd4, type: 2}
+  - {fileID: 11400000, guid: 11241164f77276f4e94892a07dc44690, type: 2}
+  - {fileID: 11400000, guid: 7ff8904cbd87c774184690edb7d7b12b, type: 2}
+  - {fileID: 11400000, guid: 858ed136b794848469ab18321586808e, type: 2}
+  - {fileID: 11400000, guid: a60973adacd8f1749acb3ae25ce1945c, type: 2}
+  - {fileID: 11400000, guid: 71e56d53accd91c4a8dda43a32e164f2, type: 2}
+  - {fileID: 11400000, guid: 36a977e53072b5045b7aff6f53a37c1e, type: 2}
+  - {fileID: 11400000, guid: 4622f8b9d739fbb48bc8501a9ce04b9b, type: 2}
+  - {fileID: 11400000, guid: 197e1749dc0743144bc39a20ff2f32e5, type: 2}
+  - {fileID: 11400000, guid: ae2c713e6ae47934ab14a0db8e4f9add, type: 2}
+  firstButton: {fileID: 11400000, guid: b2aa7b50adcd52e488ffc9a6dae310fe, type: 2}
