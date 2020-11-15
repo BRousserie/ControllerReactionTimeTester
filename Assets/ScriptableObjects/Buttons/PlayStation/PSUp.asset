@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06736e2d13cf41441928385c2c0791ce, type: 3}
-  m_Name: Up
+  m_Name: PSUp
   m_EditorClassIdentifier: 
   Sprite: {fileID: 21300000, guid: 78f856def36f97d4a8c14dcea58ed4a5, type: 3}
   IconType: 0
