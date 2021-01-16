@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -71,8 +73,14 @@ public abstract class ITest
         }
         
         Debug.Log(body);
+        SendToFile(subject, body);
         Email.SendClara(subject, body);
         SceneManager.LoadScene(0);
+    }
+
+    private void SendToFile(string subject, string body)
+    {
+        File.WriteAllText (subject + ".csv", body);
     }
 }
 
@@ -114,6 +122,7 @@ public class QueuingTest : ITest
     
     public override void StartTest()
     {
+        Debug.Log("Starting test");
         for (int questionIndex = 0; questionIndex < testManager.QueueSize; ++questionIndex)
             displayersQueue.SetSprite(questionIndex, ButtonsManager.Instance.GetFirstButton().Sprite);
     }
